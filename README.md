@@ -46,31 +46,6 @@ as example:
 
 
 
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Jungle Cat – Expert Settings</title>
-<style>
-:root{--bg:#fbfaf4;--ink:#1d2a1c;--mute:#5b6b58;--line:#d9d6c4;--head:#e9efd9;--acc:#2f7a1f;--code:#f0eedf}
-@media (prefers-color-scheme:dark){:root{--bg:#07120a;--ink:#f4f0d8;--mute:#9fb29a;--line:#2b3a2a;--head:#13281a;--acc:#7cf000;--code:#0d1d12}}
-body{margin:0;padding:24px;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,Segoe UI,Arial,sans-serif}
-main{max-width:1100px;margin:0 auto}
-h1{margin:0 0 4px}p.sub{margin:0 0 16px;color:var(--mute)}
-nav{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}nav a{padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--ink);text-decoration:none;font-size:13px}nav a:hover{border-color:var(--acc)}
-#q{width:100%;box-sizing:border-box;padding:10px 12px;font-size:15px;border:1px solid var(--line);border-radius:8px;background:var(--code);color:var(--ink)}
-h2{margin:28px 0 8px;font-size:18px;color:var(--acc)}h2 small{color:var(--mute);font-weight:400}
-.wrap{overflow-x:auto}
-table{width:100%;border-collapse:collapse;font-size:14px}
-th,td{text-align:left;padding:6px 10px;border-bottom:1px solid var(--line);vertical-align:top}
-th{background:var(--head);position:sticky;top:0}
-td:nth-child(2),td:nth-child(3){white-space:nowrap}
-code{background:var(--code);padding:1px 6px;border-radius:4px;font-size:13px}
-.new{background:var(--acc);color:var(--bg);border-radius:4px;padding:0 6px;font-size:11px;font-weight:700;text-transform:uppercase}
-tr.hide,section.hide{display:none}
-</style>
-</head>
-<body>
-<main>
 <h1>Jungle Cat – Expert Settings</h1>
 <p class="sub">281 variables in 12 groups. Defaults are the values in <code>js/game.js</code>. Step is the amount one click on the setting changes.</p>
 <input id="q" type="search" placeholder="Search a variable or a word, e.g. BOSS, speed, FRAMES …" aria-label="Search settings">
